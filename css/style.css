@@ -1,0 +1,49 @@
+/*
+
+Project Name:  New Vision
+Client: Ramon Flores
+Author: Ramon Flores
+Develop: @ One Month in Mexico
+
+*/
+
+body{
+	background: url('../images/new-vision.jpg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container{
+	background: #296ED9;
+	opacity: 0.8;
+	width: 450px;
+	color: black;
+	padding: 20px;
+}
+
+h1{
+	font-size: 80px;
+	color: #000000;
+}
+
+h2{
+	color: white;
+	background: #0B486B;
+	padding: 7px;
+	border-radius: 5px;
+}
+
+p{
+	color: #000000;
+	font-family: 'Oswald', sans-serif;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
